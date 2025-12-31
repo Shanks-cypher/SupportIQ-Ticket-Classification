@@ -1,0 +1,12 @@
+.env
+venv/
+env/
+.venv/
+include/
+lib/
+scripts/pyvenv.cfg
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+Thumbs.db
