@@ -1,4 +1,4 @@
-# SupportIQ-Ticket-Classification
+# SupportIQ:Ticket-Classification
 
 SupportIQ: Hierarchical AI Ticket Triage System SupportIQ is an intelligent helpdesk assistant that utilizes a three-tier architecture to resolve technical issues efficiently. By combining traditional information retrieval with modern Generative AI, the system ensures fast response times for common queries while providing deep technical analysis for complex incidents.
 
