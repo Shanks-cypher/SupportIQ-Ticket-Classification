@@ -20,9 +20,6 @@ Frontend: HTML5, CSS3 (Modern UI), JavaScript (Async/Await)
 
 🧠 Logic Flow: The system processes user queries through a fallback pipeline to maximize efficiency and minimize API costs:
 
-Check FAQ (L1): If a high-similarity match (
->
-0.7
-) is found in the FAQ data, return it.
-Check RAG (L2): If no FAQ match, search the vector database. If a relevant context is found, return it.
-Escalate (L3): If no local match is found, the query is sent to Gemini 1.5 Flash for a generative solution.
+1. Check FAQ (L1): If a high-similarity match (>0.7) is found in the FAQ data, return it.
+2. Check RAG (L2): If no FAQ match, search the vector database. If a relevant context is found, return it.
+3. Escalate (L3): If no local match is found, the query is sent to Gemini 1.5 Flash for a generative solution.
